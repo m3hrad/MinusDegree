@@ -1,0 +1,159 @@
+.timer{
+    position:relative;
+    background-color:rgba(0,0,0,0);
+    border-radius: 50%;
+    width: 11em;
+    height: 11em;
+    margin: 1em auto;
+}
+#mainView{
+    height:600px;
+}
+.soundLi{
+    width:49%;
+    float:left;
+    height:10em;
+    margin-top:2em;
+
+}
+.soundLi .circle{
+    position: relative;
+    top:0.5em;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    margin: 0em auto;
+
+}
+.soundChoose{
+    background-color:red;
+    height:200%;
+    min-height: 200%;
+}
+
+.addSoundButton{
+     margin: 7em auto;
+     width:7em;
+     display:none;
+}
+
+.addSoundButton img{
+    width:7em
+}
+
+#takePictureButton{
+    width: 6.5em;
+    margin: 0.25em auto;
+
+}
+.footerButton img{
+    display: block;
+    width: 5em;
+    margin: 0.8em auto;
+}
+
+#middleContainer{
+    background-color:red;
+    height:84%;
+}
+.footer{
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 7em;
+    margin-top: -7em;
+    background-color:orange;
+}
+
+.footerButton{
+    height:100%;
+    width:32%;
+    display:inline-block;
+}
+.cameraView{
+    background-color:black;
+    height:100%;
+    min-height: 100%;
+}
+
+#shape1{
+    float:left;
+}
+#addBtn{
+    float:right;
+}
+
+#panelBtn{
+    float:left;
+    width:4em;
+    margin-top:1em;
+    margin-left:1em;
+}
+#logo{
+    float:right;
+    width:18em;
+}
+.myShape{
+	width:7em;
+	width:7em;
+}
+.btnContainer{
+	width:17em;
+	margin: 0 auto;
+}
+.logoContainer{	
+        width:30em;
+        height:6em;
+}
+#shape2{
+	float:right
+}
+.panel{
+	height:10em;
+        width:0%;
+	float:left;
+	-webkit-transition: all 0.2s;
+        transition: all 0.2s;
+}
+.mainContent{
+	overflow:hidden;
+	width:100%;
+	-webkit-transition: all 0.2s;
+        transition: all 0.2s;
+        height:100% !important;
+}
+
+#content{
+	float:left;
+        height:100%;
+}
+
+.visible{
+	width:60%;
+}
+.panel ul{
+	display: none;
+}
+
+.panel li{
+        color:white;
+        background-color:rgba(0,0,0,0.4);;
+	height:3em;
+	padding-top:1.5em;
+	padding-left:0.5em;
+	margin-left: 10%;
+	margin-top: 0.1em;
+	font-size: 2em;
+}
+#main-page{
+    background-color:orange;
+}
+iframe{
+    width:100%;
+}
+
+
+
